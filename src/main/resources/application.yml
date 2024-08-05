@@ -1,5 +1,5 @@
-
-
+server:
+  port: 25567
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -11,7 +11,6 @@ spring:
       host: 127.0.0.1
       port: 6379
       database: 0
-      password: "0540"
   mail:
     host: smtp.qq.com
     username: 401887202@qq.com
@@ -26,6 +25,10 @@ spring:
       "mail.smtp.auth": true
       "mail.smtp.starttls.enable": true
       "mail.smtp.starttls.required": true
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
 
 #mybatis:
 #  mapper-locations: classpath:mapper/*.xml

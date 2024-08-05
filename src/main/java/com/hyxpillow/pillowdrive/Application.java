@@ -1,4 +1,4 @@
-package pillowdrive;
+package com.hyxpillow.pillowdrive;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
